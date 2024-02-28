@@ -1,0 +1,12 @@
+//Pyramid of doom or callback hell
+
+
+asyncFunction1((result1) => {
+    asyncFunction2(result1,(result2) => {
+        asyncFunction3(result2,(result3) => {
+            asyncFunction3(result3,(result4) => {
+
+            })
+        })
+    })
+})
